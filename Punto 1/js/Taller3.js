@@ -80,3 +80,9 @@
             });
             $( "#sortable" ).disableSelection();
         });
+
+$(function() {
+    $('.date-picker').datepicker( {
+            numberOfMonths: [4, 3],
+    });
+});
